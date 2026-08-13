@@ -1,0 +1,23 @@
+name: structural_break
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # Core
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+
+  # Notebooks
+  - jupyterlab
+  - ipykernel
+
+  # Not on the defaults channel, so it goes through pip.
+  - pip:
+      - crunch-cli

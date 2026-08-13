@@ -1,0 +1,17 @@
+# Crunch CLI local state
+.crunchdao/
+resources/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local conda/venv prefixes, in case one ends up here
+env/
+.venv/
+
+# OS
+.DS_Store
