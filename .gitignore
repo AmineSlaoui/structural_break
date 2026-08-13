@@ -1,6 +1,10 @@
 # Crunch CLI local state
 .crunchdao/
 resources/
+prediction/
+
+# Competition data (re-downloadable via the crunch CLI; X_train.parquet is 208 MB)
+data/
 
 # Python
 __pycache__/
