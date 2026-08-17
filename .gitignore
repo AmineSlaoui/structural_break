@@ -5,6 +5,7 @@ prediction/
 
 # Competition data (re-downloadable via the crunch CLI; X_train.parquet is 208 MB)
 data/
+notes/
 
 # Python
 __pycache__/
