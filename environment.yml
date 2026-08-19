@@ -21,3 +21,4 @@ dependencies:
   # Not on the defaults channel, so it goes through pip.
   - pip:
       - crunch-cli
+      - xgboost
